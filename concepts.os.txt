@@ -1,0 +1,45 @@
+
+
+# Context Switching :
+     - This is a method to save the all Details of processing , of that process (P) which was executing by CPU and  now it goes to some I/O i.e ( waiting state ), into a  Data Structure known as PCB ( Process Control Block ).
+     - When a Process goes to Waiting state ,then all it Computation Processing Stores at PCB upto that Level at which process Executed.
+     - When CPU start to execute a Process which was executed Early and went to a Waiting state ,Then CPU restore all that data of that Process from PCB.
+
+
+# Multi-Programming : 
+     - Single CPU
+     - Here we use a Data Structure i.e( Ready Que ) with the help of Context Switching. 
+     - In this Ready Que we have a collection of Processes and create a environment So that , If any one  Process goes to I/O at the time of Execution then, CPU pick the another process and start to execute it .
+     - CPU is not Idle. 
+     - High Priority Process can be Executed ,with the Help of Software Interrupt in Context Switching.
+
+     
+     
+
+# Multi-Tasking :
+     - This is a Advance version of Multi-Programming .
+     - Single CPU.
+     - Context Switching.
+     - CPU is Not Idle.
+     - Actually, Here we use Time Sharing ,i.e for a particular time period CPU will execute a Process. After that it will start to execute another one.
+     - Here ,Context Switching is not Dependent at I/O , it is Dependent at Time Period( Time Quantam ) .
+     - If any Process require I/O before that time period then it will go to waiting state and Context Switching will be there.
+     - It reduces the Response Time to any Process.
+     - High Priority Process can be Executed ,with the Help of Software Interrupt in Context Switching.
+
+
+# Multi-Processing :
+     - This is a Advance Version of Multi-Tasking.
+     - CPU >= 1 . it can Have more than one CPU.
+     - Context Switching.
+     - Time Sharing.
+     - The difference is that , here we have more than one CPU ,So that we can execute more than one process at same Time.
+     
+     
+# Multi-Threading : 
+      Thread : it is part of a Process ,i.e We can say Sub-Process( Light Weight Process ). Let we have to write a Process to Perform a Task . Also , this Task require to perform (Computation) of few small small tasks ,i.e the main task is made by combination of small tasks (components). These small Task(components) are known as Thread ,which can execute Independently .
+      
+     - it is Similar to Multi-Processing.
+     - The only Difference is that ,here we execute Threads at the place of Process.
+     - i.e More than one thread is executed at a time by more than one CPU . 
+   
