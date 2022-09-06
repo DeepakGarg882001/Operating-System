@@ -1,0 +1,49 @@
+Q. If we have a single CPU and have multiple Applications in that system. Then what is the meaning of term " that this P1  process is using x percent of CPU " i.e we can also see in Task Manager where we can easily find a example like this.
+So, we have only one CPU and it should be allocate to only one Process and it will be allocate 100% then what is the meaning of CPU utilization here and how we can say that this process is using this percent of CPU.
+
+
+Q. In microKernel we have I/O management in User Space. So what is the actual meaning of I/O management. If it deals with Hardware,then it should also communicate with Kernel  Space and go through to it. 
+So can we say that Kernel space also have some code related to I/O management.
+
+
+Q. In kernel Mode if any Management get's fail then whole system get's fail. How all this happens and how a single failure in any Management get's failure of whole system.
+
+
+Q. What is message Passing. Difference between Message passing vs shared memory vs IPC. Implement the message Passing.
+
+
+Q. What is Contention, Virtualization , hypervisor, Containerization.
+
+
+Q. What is Difference between Short Term Schedular and Dispatcher.
+
+
+Q. What is I/O time in scheduling. If a process have Burst Time= 2sec , I/O Time =5sec then its Completion Time Should be 7sec or 2 sec.
+What you mean by waiting time also.
+
+
+Q. What is Blocked Queue , I/O Queue.
+
+
+Q. What is Medium Term Schedular.
+
+
+Q. Window OS does not use one Schedular from the these three LTS, STS, MTS. which Schedular is that?
+
+
+Q. What is Primary Process Table.
+
+
+Q. What is Degree of Multi-Programming.
+
+
+Q. What is the relation between CPU register and PCB's register.
+
+
+Q. A process is executing and have its Entry in Process Table. if the Process get's Terminate then Who will remove its entry from Process Table.   
+
+
+Q. How many Process does A OS can Creates ?
+
+
+Q. when a child is executing and parent is waiting for the result of its child, then at what State that Parent Process is? or This Parent Process will be a Zombi Process or Not.
